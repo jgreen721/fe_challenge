@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="nav-row">
+        <div class="nav-col">
+          <div class="nav-content">
+            <h2 class="nav-title">snap</h2>
+            <ul class="nav-links">
+              <li class="nav-item">
+                <div class="nav-item-flex">
+                  <h4 class="nav-h4">Features</h4>
+                  <img
+                    class="arrow-icon"
+                    src="./images/icon-arrow-up.svg"
+                    alt="arrow-icon"
+                  />
+                </div>
+
+                <div class="dropdown dropdown1 shrink-menu">
+                  <div class="dropdown-content">
+                    <ul class="drop-menu">
+                      <li class="drop-flex">
+                        <img
+                          src="./images/icon-todo.svg"
+                          alt="img"
+                          class="icon"
+                        />
+                        <h5>Todo List</h5>
+                      </li>
+                      <li class="drop-flex">
+                        <img
+                          src="./images/icon-calendar.svg"
+                          alt="img"
+                          class="icon"
+                        />
+                        <h5>Calendar</h5>
+                      </li>
+                      <li class="drop-flex">
+                        <img
+                          src="./images/icon-reminders.svg"
+                          alt="img"
+                          class="icon"
+                        />
+                        <h5>Reminders</h5>
+                      </li>
+                      <li class="drop-flex">
+                        <img
+                          src="./images/icon-planning.svg"
+                          alt="img"
+                          class="icon"
+                        />
+                        <h5>Planning</h5>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="nav-item-flex">
+                  <h4 class="nav-h4">company</h4>
+                  <img
+                    class="arrow-icon"
+                    src="./images/icon-arrow-up.svg"
+                    alt="arrow-icon"
+                  />
+                </div>
+                <div class="dropdown dropdown2 shrink-menu">
+                  <div class="dropdown-content">
+                    <ul class="drop-menu">
+                      <li class="drop-flex">
+                        <h5>History</h5>
+                      </li>
+                      <li class="drop-flex">
+                        <h5>Our Team</h5>
+                      </li>
+                      <li class="drop-flex">
+                        <h5>Blog</h5>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="nav-item-flex">
+                  <h4 class="nav-h4">careers</h4>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="nav-item-flex">
+                  <h4 class="nav-h4">about</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-col">
+          <div class="burger-btn-div">
+            <div class="button-flex">
+              <button class="nav-btn">Login</button>
+              <button class="nav-btn">Register</button>
+            </div>
+            <div class="burger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-body">
+        <div class="main-content">
+          <div class="main-col">
+            <div class="main-col-content">
+              <div class="main-h1">
+                <h1>Make</h1>
+                <h1>remote work</h1>
+              </div>
+              <p>
+                Get your team in sync,no matter your location. Streamline
+                processes, create team rituals, and watch productivity soar
+              </p>
+              <button class="learn-btn">Learn More</button>
+              <div class="icon-row">
+                <img
+                  class="company-icon"
+                  src="./images/client-databiz.svg"
+                  alt="icon"
+                />
+                <img
+                  class="company-icon"
+                  src="./images/client-audiophile.svg"
+                  alt="icon"
+                />
+                <img
+                  class="company-icon"
+                  src="./images/client-meet.svg"
+                  alt="icon"
+                />
+                <img
+                  class="company-icon"
+                  src="./images/client-maker.svg"
+                  alt="icon"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="main-col">
+            <div class="img-wrapper">
+              <img
+                class="hero-img"
+                src="./images/image-hero-desktop.png"
+                alt="hero-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+      <div class="mobile-nav hide-menu">
+        <div class="close-row">
+          <h1 class="close">&times;</h1>
+        </div>
+        <div class="mobile-body">
+          <ul class="mobile-list">
+            <li class="mobile-item">
+              <h2>
+                Features
+                <img
+                  src="./images/icon-arrow-up.svg"
+                  alt="arrow"
+                  class="arrow-icon"
+                />
+              </h2>
+
+              <div class="mobile-mini-menu">
+                <div class="mobile-flex">
+                  <img
+                    class="menu-icon"
+                    src="./images/icon-todo.svg"
+                    alt="icon"
+                  />
+                  <h3 class="mobile-h3">Todo List</h3>
+                </div>
+
+                <div class="mobile-flex">
+                  <img
+                    class="menu-icon"
+                    src="./images/icon-calendar.svg"
+                    alt="icon"
+                  />
+                  <h3 class="mobile-h3">Calendar</h3>
+                </div>
+
+                <div class="mobile-flex">
+                  <img
+                    class="menu-icon"
+                    src="./images/icon-reminders.svg"
+                    alt="icon"
+                  />
+                  <h3 class="mobile-h3">Reminders</h3>
+                </div>
+
+                <div class="mobile-flex">
+                  <img
+                    class="menu-icon"
+                    src="./images/icon-planning.svg"
+                    alt="icon"
+                  />
+                  <h3 class="mobile-h3">Planning</h3>
+                </div>
+              </div>
+            </li>
+            <li class="mobile-item">
+              <h2>
+                Features
+                <img
+                  src="./images/icon-arrow-up.svg"
+                  alt="arrow"
+                  class="arrow-icon"
+                />
+              </h2>
+
+              <div class="mobile-mini-menu">
+                <div class="mobile-flex">
+                  <h3 class="mobile-h3">History</h3>
+                </div>
+
+                <div class="mobile-flex">
+                  <h3 class="mobile-h3">Our Team</h3>
+                </div>
+
+                <div class="mobile-flex">
+                  <h3 class="mobile-h3">Blog</h3>
+                </div>
+              </div>
+            </li>
+            <li class="mobile-item">
+              <h2>Careers</h2>
+            </li>
+            <li class="mobile-item">
+              <h2>About</h2>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var mobileNav = document.querySelector(".mobile-nav");
+      var closeBtn = document.querySelector(".close");
+      var burgerBtn = document.querySelector(".burger");
+      var arrowBtns = document.querySelectorAll(".arrow-icon");
+
+      closeBtn.onclick = () => {
+        mobileNav.classList.toggle("hide-menu");
+      };
+
+      burgerBtn.onclick = () => {
+        mobileNav.classList.toggle("hide-menu");
+      };
+
+      onresize = (e) => my_debounce(e);
+
+      function mobileCheck(e) {
+        console.log("MobileCheck", e.target);
+        if (e.target.innerWidth < 400) {
+          console.log("mobile");
+          document
+            .querySelector(".hero-img")
+            .setAttribute("src", "./images/image-hero-mobile.png");
+          document
+            .querySelectorAll(".dropdown")[0]
+            .classList.add("shrink-menu");
+          document
+            .querySelectorAll(".dropdown")[1]
+            .classList.add("shrink-menu");
+          arrowBtns[0].setAttribute("src", "images/icon-arrow-up.svg");
+          arrowBtns[1].setAttribute("src", "images/icon-arrow-up.svg");
+        } else {
+          console.log("desktop");
+          document
+            .querySelector(".hero-img")
+            .setAttribute("src", "./images/image-hero-desktop.png");
+        }
+      }
+
+      let my_debounce = debounce(mobileCheck, 500);
+
+      function debounce(cb, delay) {
+        let isSet;
+        return function () {
+          let args = arguments;
+          isSet && clearTimeout(isSet);
+          isSet = setTimeout(() => {
+            cb.apply(null, args);
+          }, delay);
+        };
+      }
+
+      arrowBtns.forEach((arrowBtn) => {
+        arrowBtn.onclick = (e) => toggleMenu(e);
+      });
+
+      function toggleMenu(e) {
+        if (e.target.getAttribute("src") === "./images/icon-arrow-up.svg") {
+          e.target.setAttribute("src", "./images/icon-arrow-down.svg");
+        } else {
+          e.target.setAttribute("src", "./images/icon-arrow-up.svg");
+        }
+        if (e.target.closest(".nav-item")) {
+          e.target
+            .closest(".nav-item")
+            .querySelector(".dropdown")
+            .classList.toggle("shrink-menu");
+        } else {
+          e.target
+            .closest(".mobile-item")
+            .querySelector(".mobile-mini-menu")
+            .classList.toggle("shrink-menu");
+          console.log(e.target.closest(".mobile-item"));
+        }
+      }
+    </script>
+  </body>
+</html>
