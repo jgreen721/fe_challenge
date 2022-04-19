@@ -288,7 +288,13 @@ li {
   /* border: 2px solid red; */
 }
 
-@media screen and (max-width: 385px) {
+p {
+  width: 80%;
+  /* color: red; */
+  max-width: 550px;
+}
+
+@media screen and (max-width: 500px) {
   .burger {
     display: block;
   }
@@ -330,6 +336,10 @@ li {
 
   p {
     text-align: center;
+  }
+
+  .hero-img {
+    transform: translateY(-15%);
   }
 
   .img-wrapper {
