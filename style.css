@@ -375,6 +375,10 @@ p {
     /* background: blue; */
     transform: translateY(-100%);
   }
+
+  .main-col-content {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 300px) {
